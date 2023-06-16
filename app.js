@@ -231,7 +231,7 @@ function iniciarJuego() {
   fondo.onload = function () {
     ctx.drawImage(fondo, 0, 0);
   };
-  fondo.src = "../img/fondo de paint 2.jpg";
+  fondo.src = "/img/fondo de paint 2.jpg";
 
   var x = 120;
   var y = 500;
