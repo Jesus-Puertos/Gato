@@ -209,29 +209,29 @@ function iniciarJuego() {
   var gasto2 = new Gasto(325, 0, 1.8, ctx);
 
   const papas = new Image();
-  papas.src = "/img/mandado.png";
+  papas.src = "img/mandado.png";
 
   const bolsa = new Image();
-  bolsa.src = "/img/bolsa20.png";
+  bolsa.src = "img/bolsa20.png";
 
   const moneda1 = new Image();
-  moneda1.src = "/img/moneda.png";
+  moneda1.src = "img/moneda.png";
 
   const dinero = new Image();
-  dinero.src = "/img/yoshi.png";
+  dinero.src = "img/yoshi.png";
 
   var imagen = new Image();
-  imagen.src = "/img/gato.png";
+  imagen.src = "img/gato.png";
 
   var imagen2 = new Image();
-  imagen2.src = "/img/gallina.png";
+  imagen2.src = "img/gallina.png";
 
   // Cargar imagen de fondo
   var fondo = new Image();
   fondo.onload = function () {
     ctx.drawImage(fondo, 0, 0);
   };
-  fondo.src = "/img/fondo de paint 2.jpg";
+  fondo.src = "img/fondo de paint 2.jpg";
 
   var x = 120;
   var y = 500;
