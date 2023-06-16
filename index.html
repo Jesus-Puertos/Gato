@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <title>Cultura Tributaria Juego</title>
+  </head>
+  <body>
+    <div class="juego">
+      <canvas id="background-canvas" width="1080" height="720"></canvas>
+      <canvas
+        id="platform-canvas"
+        width="1080"
+        height="720"
+        style="position: absolute; top: 0; left: 0"
+      ></canvas>
+      <a href="RecolectarMonedas.html"><button>Jugar de nuevo</button></a>
+      <button class="pausa" onclick="pausar()">Pausar/Renaudar</button>
+    </div>
+    <div class="firma-creador">Creado por Jesús Alberto Rodriguez Puertos.</div>
+    <audio
+      id="audioPlayer"
+      src="./audio/Girasol - Quincas Moreira.mp3"
+      preload="auto"
+    ></audio>
+
+    <script src="app.js"></script>
+  </body>
+</html>
